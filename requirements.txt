@@ -1,0 +1,24 @@
+# PyTorch: install the CUDA build for GPU OCR and fine-tuning, e.g.
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+# (the CPU build also works, but OCR of ~400 pages and two fine-tuning runs then take much longer)
+torch==2.11.0
+torchvision==0.26.0
+transformers==5.19.0
+tokenizers==0.23.3
+huggingface_hub==1.33.0
+safetensors==0.8.0
+python-doctr==1.1.0
+opencv-python==5.0.0.93
+rapidfuzz==3.14.6
+numpy==2.5.3
+pandas==2.3.3
+matplotlib==3.11.2
+pillow==12.3.0
+requests==2.34.2
+mlflow==3.17.0
+pytest==9.1.1
+pyflakes==4.0.3
+jupyter==1.1.1
+nbformat==5.11.1
+nbconvert==7.17.1
+ipykernel==7.4.0

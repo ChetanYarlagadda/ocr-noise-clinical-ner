@@ -1,0 +1,11 @@
+[project]
+name = "ocr-noise-clinical-ner"
+version = "1.0.0"
+description = "How OCR errors break clinical NER, and how to fix it: synthetic scans of BC5CDR abstracts, docTR OCR, span projection, PubMedBERT tagging, and three mitigations."
+requires-python = ">=3.10"
+license = "MIT"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+filterwarnings = ["ignore::DeprecationWarning", "ignore::FutureWarning"]
