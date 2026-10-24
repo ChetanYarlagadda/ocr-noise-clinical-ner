@@ -1,0 +1,159 @@
+model,condition,status,mentions,found_strict,found_overlap,type
+clean-trained,L0,corrupted,7,0.8571428571428571,0.8571428571428571,all
+clean-trained,L0,intact,1064,0.918233082706767,0.9539473684210527,all
+clean-trained,L0,merged,1,0.0,1.0,all
+clean-trained,L0 + LLM correction,intact,58,0.9137931034482759,1.0,all
+clean-trained,L1,corrupted,36,0.7222222222222222,0.8055555555555556,all
+clean-trained,L1,intact,1023,0.9149560117302052,0.9530791788856305,all
+clean-trained,L1,merged,13,0.0,0.38461538461538464,all
+clean-trained,L2,corrupted,140,0.5714285714285714,0.7928571428571428,all
+clean-trained,L2,intact,892,0.9136771300448431,0.9495515695067265,all
+clean-trained,L2,merged,40,0.0,0.45,all
+clean-trained,L3,corrupted,348,0.5057471264367817,0.7126436781609196,all
+clean-trained,L3,intact,647,0.8902627511591963,0.9273570324574961,all
+clean-trained,L3,lost,2,0.0,0.0,all
+clean-trained,L3,merged,75,0.0,0.4666666666666667,all
+clean-trained,L3 + LLM correction,corrupted,11,0.45454545454545453,0.9090909090909091,all
+clean-trained,L3 + LLM correction,intact,108,0.9351851851851852,1.0,all
+clean-trained,L4,corrupted,730,0.26164383561643834,0.39452054794520547,all
+clean-trained,L4,intact,260,0.8,0.8307692307692308,all
+clean-trained,L4,lost,9,0.0,0.0,all
+clean-trained,L4,merged,73,0.0,0.3287671232876712,all
+clean-trained,L4 + LLM correction,corrupted,40,0.25,0.575,all
+clean-trained,L4 + LLM correction,intact,77,0.948051948051948,1.0,all
+clean-trained,L4 + LLM correction,lost,2,0.0,0.0,all
+clean-trained,L4 + preprocessing,corrupted,677,0.36484490398818314,0.5051698670605613,all
+clean-trained,L4 + preprocessing,intact,321,0.838006230529595,0.8535825545171339,all
+clean-trained,L4 + preprocessing,merged,74,0.0,0.36486486486486486,all
+clean-trained,clean text,intact,1072,0.9169776119402985,0.9542910447761194,all
+noise-augmented,L0,corrupted,7,0.8571428571428571,0.8571428571428571,all
+noise-augmented,L0,intact,1064,0.8834586466165414,0.9351503759398496,all
+noise-augmented,L0,merged,1,0.0,1.0,all
+noise-augmented,L0 + LLM correction,intact,58,0.9137931034482759,0.9827586206896551,all
+noise-augmented,L1,corrupted,36,0.8333333333333334,0.9166666666666666,all
+noise-augmented,L1,intact,1023,0.8866080156402737,0.9433040078201369,all
+noise-augmented,L1,merged,13,0.0,0.46153846153846156,all
+noise-augmented,L2,corrupted,140,0.6428571428571429,0.85,all
+noise-augmented,L2,intact,892,0.9013452914798207,0.9439461883408071,all
+noise-augmented,L2,merged,40,0.0,0.725,all
+noise-augmented,L3,corrupted,348,0.6293103448275862,0.8390804597701149,all
+noise-augmented,L3,intact,647,0.8794435857805255,0.9273570324574961,all
+noise-augmented,L3,lost,2,0.0,0.0,all
+noise-augmented,L3,merged,75,0.0,0.6266666666666667,all
+noise-augmented,L3 + LLM correction,corrupted,11,0.6363636363636364,0.9090909090909091,all
+noise-augmented,L3 + LLM correction,intact,108,0.9259259259259259,1.0,all
+noise-augmented,L4,corrupted,730,0.4041095890410959,0.6671232876712329,all
+noise-augmented,L4,intact,260,0.85,0.8961538461538462,all
+noise-augmented,L4,lost,9,0.0,0.0,all
+noise-augmented,L4,merged,73,0.0,0.5205479452054794,all
+noise-augmented,L4 + LLM correction,corrupted,40,0.325,0.575,all
+noise-augmented,L4 + LLM correction,intact,77,0.9090909090909091,1.0,all
+noise-augmented,L4 + LLM correction,lost,2,0.0,0.0,all
+noise-augmented,L4 + preprocessing,corrupted,677,0.5228951255539144,0.7267355982274741,all
+noise-augmented,L4 + preprocessing,intact,321,0.822429906542056,0.881619937694704,all
+noise-augmented,L4 + preprocessing,merged,74,0.0,0.6621621621621622,all
+noise-augmented,clean text,intact,1072,0.8824626865671642,0.9356343283582089,all
+clean-trained,L0,corrupted,6,0.8333333333333334,0.8333333333333334,Chemical
+clean-trained,L0,intact,589,0.9524617996604414,0.9609507640067911,Chemical
+clean-trained,L0,merged,1,0.0,1.0,Chemical
+clean-trained,L0,corrupted,1,1.0,1.0,Disease
+clean-trained,L0,intact,475,0.8757894736842106,0.9452631578947368,Disease
+clean-trained,L0 + LLM correction,intact,19,1.0,1.0,Chemical
+clean-trained,L0 + LLM correction,intact,39,0.8717948717948718,1.0,Disease
+clean-trained,L1,corrupted,25,0.8,0.84,Chemical
+clean-trained,L1,intact,563,0.9484902309058615,0.9591474245115453,Chemical
+clean-trained,L1,merged,8,0.0,0.25,Chemical
+clean-trained,L1,corrupted,11,0.5454545454545454,0.7272727272727273,Disease
+clean-trained,L1,intact,460,0.8739130434782608,0.9456521739130435,Disease
+clean-trained,L1,merged,5,0.0,0.6,Disease
+clean-trained,L2,corrupted,78,0.6410256410256411,0.8205128205128205,Chemical
+clean-trained,L2,intact,495,0.9414141414141414,0.9515151515151515,Chemical
+clean-trained,L2,merged,23,0.0,0.6521739130434783,Chemical
+clean-trained,L2,corrupted,62,0.4838709677419355,0.7580645161290323,Disease
+clean-trained,L2,intact,397,0.8790931989924433,0.947103274559194,Disease
+clean-trained,L2,merged,17,0.0,0.17647058823529413,Disease
+clean-trained,L3,corrupted,175,0.6514285714285715,0.7885714285714286,Chemical
+clean-trained,L3,intact,380,0.9078947368421053,0.9315789473684211,Chemical
+clean-trained,L3,merged,41,0.0,0.43902439024390244,Chemical
+clean-trained,L3,corrupted,173,0.3583815028901734,0.6358381502890174,Disease
+clean-trained,L3,intact,267,0.8651685393258427,0.9213483146067416,Disease
+clean-trained,L3,lost,2,0.0,0.0,Disease
+clean-trained,L3,merged,34,0.0,0.5,Disease
+clean-trained,L3 + LLM correction,corrupted,6,0.5,0.8333333333333334,Chemical
+clean-trained,L3 + LLM correction,intact,40,1.0,1.0,Chemical
+clean-trained,L3 + LLM correction,corrupted,5,0.4,1.0,Disease
+clean-trained,L3 + LLM correction,intact,68,0.8970588235294118,1.0,Disease
+clean-trained,L4,corrupted,398,0.3844221105527638,0.507537688442211,Chemical
+clean-trained,L4,intact,153,0.8169934640522876,0.8366013071895425,Chemical
+clean-trained,L4,lost,6,0.0,0.0,Chemical
+clean-trained,L4,merged,39,0.0,0.46153846153846156,Chemical
+clean-trained,L4,corrupted,332,0.1144578313253012,0.25903614457831325,Disease
+clean-trained,L4,intact,107,0.7757009345794392,0.822429906542056,Disease
+clean-trained,L4,lost,3,0.0,0.0,Disease
+clean-trained,L4,merged,34,0.0,0.17647058823529413,Disease
+clean-trained,L4 + LLM correction,corrupted,16,0.3125,0.5625,Chemical
+clean-trained,L4 + LLM correction,intact,29,1.0,1.0,Chemical
+clean-trained,L4 + LLM correction,lost,1,0.0,0.0,Chemical
+clean-trained,L4 + LLM correction,corrupted,24,0.20833333333333334,0.5833333333333334,Disease
+clean-trained,L4 + LLM correction,intact,48,0.9166666666666666,1.0,Disease
+clean-trained,L4 + LLM correction,lost,1,0.0,0.0,Disease
+clean-trained,L4 + preprocessing,corrupted,362,0.5082872928176796,0.6270718232044199,Chemical
+clean-trained,L4 + preprocessing,intact,198,0.8333333333333334,0.8383838383838383,Chemical
+clean-trained,L4 + preprocessing,merged,36,0.0,0.5,Chemical
+clean-trained,L4 + preprocessing,corrupted,315,0.2,0.36507936507936506,Disease
+clean-trained,L4 + preprocessing,intact,123,0.8455284552845529,0.8780487804878049,Disease
+clean-trained,L4 + preprocessing,merged,38,0.0,0.23684210526315788,Disease
+clean-trained,clean text,intact,596,0.9496644295302014,0.9614093959731543,Chemical
+clean-trained,clean text,intact,476,0.8760504201680672,0.9453781512605042,Disease
+noise-augmented,L0,corrupted,6,0.8333333333333334,0.8333333333333334,Chemical
+noise-augmented,L0,intact,589,0.9185059422750425,0.933786078098472,Chemical
+noise-augmented,L0,merged,1,0.0,1.0,Chemical
+noise-augmented,L0,corrupted,1,1.0,1.0,Disease
+noise-augmented,L0,intact,475,0.84,0.9368421052631579,Disease
+noise-augmented,L0 + LLM correction,intact,19,0.9473684210526315,0.9473684210526315,Chemical
+noise-augmented,L0 + LLM correction,intact,39,0.8974358974358975,1.0,Disease
+noise-augmented,L1,corrupted,25,0.84,0.88,Chemical
+noise-augmented,L1,intact,563,0.9218472468916519,0.9431616341030196,Chemical
+noise-augmented,L1,merged,8,0.0,0.5,Chemical
+noise-augmented,L1,corrupted,11,0.8181818181818182,1.0,Disease
+noise-augmented,L1,intact,460,0.8434782608695652,0.9434782608695652,Disease
+noise-augmented,L1,merged,5,0.0,0.4,Disease
+noise-augmented,L2,corrupted,78,0.6538461538461539,0.8461538461538461,Chemical
+noise-augmented,L2,intact,495,0.9333333333333333,0.9393939393939394,Chemical
+noise-augmented,L2,merged,23,0.0,0.8260869565217391,Chemical
+noise-augmented,L2,corrupted,62,0.6290322580645161,0.8548387096774194,Disease
+noise-augmented,L2,intact,397,0.8614609571788413,0.9496221662468514,Disease
+noise-augmented,L2,merged,17,0.0,0.5882352941176471,Disease
+noise-augmented,L3,corrupted,175,0.6914285714285714,0.8571428571428571,Chemical
+noise-augmented,L3,intact,380,0.9157894736842105,0.9289473684210526,Chemical
+noise-augmented,L3,merged,41,0.0,0.6829268292682927,Chemical
+noise-augmented,L3,corrupted,173,0.5664739884393064,0.8208092485549133,Disease
+noise-augmented,L3,intact,267,0.8277153558052435,0.9250936329588015,Disease
+noise-augmented,L3,lost,2,0.0,0.0,Disease
+noise-augmented,L3,merged,34,0.0,0.5588235294117647,Disease
+noise-augmented,L3 + LLM correction,corrupted,6,0.8333333333333334,0.8333333333333334,Chemical
+noise-augmented,L3 + LLM correction,intact,40,1.0,1.0,Chemical
+noise-augmented,L3 + LLM correction,corrupted,5,0.4,1.0,Disease
+noise-augmented,L3 + LLM correction,intact,68,0.8823529411764706,1.0,Disease
+noise-augmented,L4,corrupted,398,0.4949748743718593,0.7160804020100503,Chemical
+noise-augmented,L4,intact,153,0.8823529411764706,0.8888888888888888,Chemical
+noise-augmented,L4,lost,6,0.0,0.0,Chemical
+noise-augmented,L4,merged,39,0.0,0.5641025641025641,Chemical
+noise-augmented,L4,corrupted,332,0.29518072289156627,0.608433734939759,Disease
+noise-augmented,L4,intact,107,0.8037383177570093,0.9065420560747663,Disease
+noise-augmented,L4,lost,3,0.0,0.0,Disease
+noise-augmented,L4,merged,34,0.0,0.47058823529411764,Disease
+noise-augmented,L4 + LLM correction,corrupted,16,0.375,0.5625,Chemical
+noise-augmented,L4 + LLM correction,intact,29,1.0,1.0,Chemical
+noise-augmented,L4 + LLM correction,lost,1,0.0,0.0,Chemical
+noise-augmented,L4 + LLM correction,corrupted,24,0.2916666666666667,0.5833333333333334,Disease
+noise-augmented,L4 + LLM correction,intact,48,0.8541666666666666,1.0,Disease
+noise-augmented,L4 + LLM correction,lost,1,0.0,0.0,Disease
+noise-augmented,L4 + preprocessing,corrupted,362,0.6243093922651933,0.7679558011049724,Chemical
+noise-augmented,L4 + preprocessing,intact,198,0.8585858585858586,0.8636363636363636,Chemical
+noise-augmented,L4 + preprocessing,merged,36,0.0,0.7222222222222222,Chemical
+noise-augmented,L4 + preprocessing,corrupted,315,0.40634920634920635,0.6793650793650794,Disease
+noise-augmented,L4 + preprocessing,intact,123,0.7642276422764228,0.9105691056910569,Disease
+noise-augmented,L4 + preprocessing,merged,38,0.0,0.6052631578947368,Disease
+noise-augmented,clean text,intact,596,0.9161073825503355,0.9345637583892618,Chemical
+noise-augmented,clean text,intact,476,0.8403361344537815,0.9369747899159664,Disease

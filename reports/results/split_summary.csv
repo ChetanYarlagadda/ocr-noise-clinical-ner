@@ -1,0 +1,4 @@
+split,documents,words_mean,words_max,characters,chemical_mentions,disease_mentions,overlapping_mentions,non_ascii_characters,mentions_on_word_boundaries
+train,500,186.048,535,652667,5203,4182,0,0,1.0
+dev,500,184.57,533,647019,5347,4244,0,0,0.9989573558544469
+test,500,192.966,505,677248,5385,4424,0,0,0.9994902640432256

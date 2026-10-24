@@ -1,0 +1,5 @@
+level,pipeline,cer,chosen
+4,none,0.2065627849520731,False
+4,deskew,0.16496043834060214,False
+4,deskew+nlmeans,0.14857921528205476,True
+4,deskew+upscale+median+otsu,0.24525782821105407,False

@@ -1,0 +1,3 @@
+tool,type,concept_precision,concept_recall,concept_f1,readme_precision,readme_recall,readme_f1,match_to_2dp
+tmChem,Chemical,0.9246771879483501,0.898884239888424,0.9115983026874115,0.92,0.9,0.91,True
+DNorm,Disease,0.8100558659217877,0.8023138832997988,0.8061662875916098,0.81,0.8,0.81,True

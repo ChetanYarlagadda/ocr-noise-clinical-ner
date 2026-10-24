@@ -1,0 +1,6 @@
+started_utc,kind,wall_seconds,gpu_stage_seconds,pages_ocr,llm_new_calls
+2026-10-10T17:34:50+00:00,smoke,87.0,67.9,52,5
+2026-10-10T17:37:58+00:00,full,344.0,329.5,354,15
+2026-10-10T17:46:48+00:00,cached re-run,9.0,0.0,0,0
+2026-10-10T17:48:57+00:00,cached re-run,8.0,0.0,0,0
+2026-10-10T17:54:42+00:00,cached re-run,8.0,0.0,0,0

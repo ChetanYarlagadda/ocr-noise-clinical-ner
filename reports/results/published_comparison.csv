@@ -1,0 +1,15 @@
+system,type,precision,recall,f1,f1_low,f1_high,source
+clean-trained PubMedBERT (this project),Chemical,0.9107239087479791,0.9415041782729805,0.9258582907231556,0.9138102611730999,0.9364332743520173,computed
+clean-trained PubMedBERT (this project),Disease,0.8075550891920252,0.8698010849909584,0.8375231254761127,0.8196295660440428,0.8543769163669892,computed
+clean-trained PubMedBERT (this project),both,0.8631436314363143,0.9091650525028036,0.885556824388064,0.8756181966215959,0.8948600581819779,computed
+noise-augmented PubMedBERT (this project),Chemical,0.9107207533502354,0.9338904363974002,0.9221600806821307,0.90869313015081,0.9335606017388063,computed
+noise-augmented PubMedBERT (this project),Disease,0.7709224190592547,0.8557866184448463,0.811140867702196,0.7940935227361505,0.8268493268382512,computed
+noise-augmented PubMedBERT (this project),both,0.8449151730087223,0.8986644917932511,0.8709613674538089,0.8602335336885149,0.881064131651647,computed
+tmChem output shipped with the corpus,Chemical,0.963419821352616,0.841225626740947,0.8981857836819669,,,computed from the archive
+DNorm output shipped with the corpus,Disease,0.8141220481646013,0.7870705244122965,0.8003677738191013,,,computed from the archive
+"PubMedBERT (uncased, abstracts), Gu et al. 2021",Chemical,,,0.9333,,,published (separate model per type)
+"PubMedBERT (uncased, abstracts), Gu et al. 2021",Disease,,,0.8562,,,published (separate model per type)
+"BioBERT (cased), Gu et al. 2021",Chemical,,,0.9285,,,published (separate model per type)
+"BioBERT (cased), Gu et al. 2021",Disease,,,0.847,,,published (separate model per type)
+"Inter-annotator agreement, test set (Li et al. 2016)",Chemical,,,0.963,,,published
+"Inter-annotator agreement, test set (Li et al. 2016)",Disease,,,0.8875,,,published

@@ -1,0 +1,129 @@
+{
+  "started_utc": "2026-10-10T17:54:42+00:00",
+  "finished_utc": "2026-10-10T17:54:50+00:00",
+  "quick": false,
+  "settings": {
+    "test_docs": 60,
+    "levels": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "channel_docs": 6,
+    "pre_docs": 4,
+    "pre_candidates": [
+      [
+        "deskew"
+      ],
+      [
+        "deskew",
+        "nlmeans"
+      ],
+      [
+        "deskew",
+        "upscale",
+        "median",
+        "otsu"
+      ]
+    ],
+    "pre_levels": [
+      4
+    ],
+    "llm_docs": 8,
+    "llm_levels": [
+      3,
+      4
+    ],
+    "llm_clean_docs": 4,
+    "dev_docs": 150,
+    "clean": {
+      "model": "microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract",
+      "revision": "d673b8835373c6fa116d6d8006b33d48734e305d",
+      "epochs": 2,
+      "lr": 5e-05,
+      "batch": 16,
+      "warmup": 0.1,
+      "weight_decay": 0.01,
+      "max_words": 80,
+      "max_length": 256,
+      "noise_prob": 0.0,
+      "noise_cer": [
+        0.005,
+        0.25
+      ],
+      "subsample": 0
+    },
+    "noisy": {
+      "model": "microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract",
+      "revision": "d673b8835373c6fa116d6d8006b33d48734e305d",
+      "epochs": 2,
+      "lr": 5e-05,
+      "batch": 16,
+      "warmup": 0.1,
+      "weight_decay": 0.01,
+      "max_words": 80,
+      "max_length": 256,
+      "noise_prob": 0.5,
+      "noise_cer": [
+        0.005,
+        0.25
+      ],
+      "subsample": 0
+    },
+    "n_boot": 1000,
+    "cer_bins": [
+      0.0,
+      0.0025,
+      0.01,
+      0.025,
+      0.05,
+      0.1,
+      0.2,
+      1.0
+    ]
+  },
+  "preprocessing_chosen": [
+    "deskew",
+    "nlmeans"
+  ],
+  "timings_s": {
+    "data": 0.2,
+    "OCR": 0.0,
+    "OCR (preprocessed pages)": 0.0
+  },
+  "gpu_stages": [],
+  "gpu_seconds_this_run": 0,
+  "pages_ocr_this_run": {
+    "OCR": 0,
+    "OCR (preprocessed pages)": 0
+  },
+  "llm": {
+    "model": "qwen3:4b",
+    "new_calls": 0,
+    "cached_calls": 20,
+    "new_model_seconds": 0.0,
+    "cache_total_replies": 20,
+    "cache_total_model_seconds": 107.0
+  },
+  "noise_channel_expected_cer": 0.07908311116262895,
+  "device": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "versions": {
+    "python": "3.12.10",
+    "torch": "2.11.0+cu128",
+    "numpy": "2.5.3",
+    "pandas": "2.3.3",
+    "doctr": "v1.1.0",
+    "transformers": "5.19.0"
+  },
+  "data": {
+    "source": "https://huggingface.co/datasets/bigbio/bc5cdr/resolve/6ba1463320d003e8232dfa0c3ee9aaa2559998ec/CDR_Data.zip",
+    "sha256": "0a359a7f038d283a7b05b084fa73de014e7410e1f5d7034bf3fd01f016fc2444",
+    "license": "Public domain (United States Government Work, NCBI/NLM notice in the archive README)"
+  },
+  "model_keys": {
+    "clean-trained": "b480df1bb3aa",
+    "noise-augmented": "db8767d47a27"
+  }
+}

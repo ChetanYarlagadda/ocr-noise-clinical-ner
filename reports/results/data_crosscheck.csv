@@ -1,0 +1,10 @@
+split,statistic,published,loaded,match
+train,articles,500,500,True
+train,Chemical mentions,5203,5203,True
+train,Disease mentions,4182,4182,True
+dev,articles,500,500,True
+dev,Chemical mentions,5347,5347,True
+dev,Disease mentions,4244,4244,True
+test,articles,500,500,True
+test,Chemical mentions,5385,5385,True
+test,Disease mentions,4424,4424,True
