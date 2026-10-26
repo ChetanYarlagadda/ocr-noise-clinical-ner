@@ -1,5 +1,7 @@
 # How OCR Errors Break Clinical NER, and How to Fix It
 
+[![CI](https://github.com/ChetanYarlagadda/ocr-noise-clinical-ner/actions/workflows/ci.yml/badge.svg)](https://github.com/ChetanYarlagadda/ocr-noise-clinical-ner/actions/workflows/ci.yml)
+
 **How much entity-recognition accuracy does a biomedical NER model lose when its input comes from a scanner and an
 OCR engine instead of clean text, and which fix gets the most of it back?** This project renders 60 BC5CDR test
 abstracts as synthetic scanned pages at five degradation levels, reads them back with the docTR OCR models on a GPU,
@@ -312,6 +314,7 @@ scripts/          run_pipeline.py (every experiment), make_figures.py
 notebooks/        analysis.ipynb, the walkthrough with every table
 reports/          figures/ and results/ (every number quoted above)
 tests/            pytest suite (alignment and projection on known corruptions, scoring, BIO/windows, parsing, rendering, deskew)
+.github/workflows/ CI: pyflakes and the pytest suite on CPU-only PyTorch (synthetic text and pages, no corpus or model download)
 ```
 
 ## License and citations
